@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": false,
+    "commonjs": true,
+    "node": true,
+    "es6": true,
+    "jquery": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": false,
+      "modules": true
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "no-console": "off",
+    "strict": ["error", "global"],
+    "curly": "warn"
+  }
+}
+
