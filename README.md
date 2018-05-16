@@ -21,7 +21,7 @@ Endpoint | Data Type | Description
 ---------|-----------|------------
 `key` | string | The key of the events to be fetched
 `from` | date | The endpoint will return events starting from this date
-`to` | date | The endpoint will return events starting from this date
+`to` | date | The endpoint will return events up to this date
 
 ## How to do a local install
 
