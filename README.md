@@ -52,3 +52,9 @@ npm run build
 # Restart the application with the latest code
 npm run deploy
 ```
+
+## Accessing the Dashboard
+
+Simply visit the site, then log-in. You will then be able to filter the events by key, from, and to dates.
+
+Frameworks used: [React](https://reactjs.org/), [Chart.js](https://www.chartjs.org/)
