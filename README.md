@@ -6,6 +6,7 @@ Endpoint | Description
 ---------|------------
 `POST /logs` | Logs a new event into the system
 `DELETE /logs/:key?` | Deletes events in the system. If a key is provided, only events with that key will be deleted.
+`POST /filter` | Queries events in the system.
 
 The post body for the `POST /logs` endpoint is below:
 
@@ -13,6 +14,14 @@ Endpoint | Data Type | Description
 ---------|-----------|------------
 `key` | string | The key of the event
 `metadata` | JSON | Optional meta data for the event
+
+The post body for the `POST /filter` endpoint is below:
+
+Endpoint | Data Type | Description
+---------|-----------|------------
+`key` | string | The key of the events to be fetched
+`from` | date | The endpoint will return events starting from this date
+`to` | date | The endpoint will return events starting from this date
 
 ## How to do a local install
 
